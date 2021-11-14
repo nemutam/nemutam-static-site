@@ -103,7 +103,7 @@ form.bg-light {
 
 @media (min-width: 768px) {
     .brand img {
-        margin-right: 2rem;
+        /*margin-right: 2rem;*/
     }
 }
 
