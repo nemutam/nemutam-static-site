@@ -1,0 +1,274 @@
+/* ========================================================================
+ * Base structure
+ * ======================================================================== */
+
+nav .dropdown-toggle img {
+    width: auto;
+    height: 24px;
+}
+
+main > .container {
+    padding-top: 3.75rem;
+    padding-bottom: 6rem;
+}
+
+main > .container .alert:first-child {
+    margin-top: 2rem;
+}
+
+.footer {
+    padding: 1.875rem 0 1.375rem 0;
+    background-color: #f5f5f5;
+}
+
+/* ========================================================================
+ * Bootstrap overrides
+ * ======================================================================== */
+
+form.bg-dark {
+    /* .btn-dark */
+    background-color: rgba(52, 58, 64, 0.9) !important;
+}
+
+form.bg-light {
+    /* .btn-dark */
+    background-color: rgba(52, 58, 64, 0.075) !important;
+}
+
+.list-group-item-dark {
+    /* .btn-dark */
+    background-color: rgba(52, 58, 64, 0.9) !important;
+    /* .btn-dark 0.9 */
+    border-color: #484d53 !important;
+}
+
+.bg-none {
+    background: none !important;
+}
+
+/* ========================================================================
+ * Fix alerts
+ * ======================================================================== */
+
+/* Make alert-info look like alert-primary */
+.alert-info {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+.alert-info hr {
+    border-top-color: #9fcdff;
+}
+
+.alert-info .alert-link {
+    color: #002752;
+}
+
+/* Add alert-error that is equivalent to alert-danger */
+.alert-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-error hr {
+    border-top-color: #f1b0b7;
+}
+
+.alert-error .alert-link {
+    color: #491217;
+}
+
+/* ========================================================================
+ * Vue.js
+ * ======================================================================== */
+
+[v-cloak] {
+    display: none;
+}
+
+/* ========================================================================
+ * Brand
+ * ======================================================================== */
+
+.brand {
+    margin-top: 2.5rem;
+}
+
+.brand img {
+    width: auto;
+    height: 101px;
+}
+
+@media (min-width: 768px) {
+    .brand img {
+        margin-right: 2rem;
+    }
+}
+
+/* ========================================================================
+ * Listing
+ * ======================================================================== */
+
+.listing {
+    margin-bottom: 1.875rem;
+}
+
+.listing-buttons {
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.listing-buttons .btn {
+    width: 2.125rem;
+    /* .btn-dark */
+    background-color: rgba(52, 58, 64, 0.6);
+    border-color: transparent;
+}
+
+.listing-link {
+    /* .btn-primary */
+    border-bottom: 0.3125rem solid #007bff;
+}
+
+.listing-link:focus {
+    border-radius: .25rem;
+    outline: 0;
+    /*. btn-warning */
+    box-shadow: 0 0 0 0.2rem #ffc107;
+}
+
+.listing-picture .listing-link:visited {
+    /* .btn-dark:focus - border-color */
+    border-color: #1d2124;
+}
+
+.listing-no-picture .listing-link:visited {
+    /* .bg-secondary */
+    border-color: #6c757d;
+}
+
+.listing-price {
+    bottom: 0;
+    left: 0;
+}
+
+.listing-picture .listing-price {
+    /* .text-white */
+    color: #fff;
+    /* .btn-dark:focus - border-color */
+    background: linear-gradient(transparent, #1d2124);
+}
+
+.listing-no-picture .listing-price {
+    /* .text-body */
+    color: #212529;
+}
+
+.listing table img {
+    width: auto;
+    height: 16px;
+}
+
+.listing-expired .badge {
+    z-index: 3;
+    /* .btn-sm */
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    /* .btn-dark */
+    background-color: rgba(52, 58, 64, 0.6);
+}
+
+.listing-expired .listing-link {
+    opacity: 0.5;
+}
+
+/* ========================================================================
+ * Landing page
+ * ======================================================================== */
+
+#landing-carousel .carousel-caption {
+    bottom: 5px;
+    padding-bottom: 0;
+}
+
+#landing-carousel h3 {
+    font-size: 1rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 576px) {
+    #landing-carousel .carousel-caption {
+        bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    #landing-carousel h3 {
+        font-size: 1.75rem;
+    }
+}
+
+/* ========================================================================
+ * typeahead.js
+ * ======================================================================== */
+
+.twitter-typeahead {
+    width: 100%;
+}
+
+.twitter-typeahead .tt-menu {
+    width: 100%;
+    padding-top: .375rem;
+    padding-bottom: .375rem;
+    /* .border */
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    background-color: #fff;
+}
+
+.twitter-typeahead .tt-suggestion {
+    padding: .375rem .75rem;
+    /* .text-body */
+    color: #212529;
+    cursor: pointer;
+}
+
+.twitter-typeahead .tt-suggestion:hover {
+    /* .border */
+    background-color: #dee2e6;
+}
+
+/* ========================================================================
+ * Ads
+ * ======================================================================== */
+
+.ad-container {
+    margin-top: 2.8125rem;
+    margin-bottom: 4.6875rem;
+}
+
+/* ========================================================================
+ * Section
+ * ======================================================================== */
+
+
+
+/* ========================================================================
+ * Section
+ * ======================================================================== */
+
+
+
+/* ========================================================================
+ * Section
+ * ======================================================================== */
+
+
+
+/* ========================================================================
+ * Section
+ * ======================================================================== */
